@@ -4,6 +4,6 @@ public class Switchc {
     public static void main(String[] args) {
 
 
-        String inputData
+       // String inputData
     }
 }
