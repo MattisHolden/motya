@@ -2,6 +2,15 @@ package by.belhard.j19.lessons.Lesson4;
 
 
 public class Person {
+
+
+    public Person(String name, int age, Country country, Sex sex) {
+        this.name = name;
+        this.age = age;
+        this.country = country;
+        this.sex = sex;
+    }
+
     String name;
     int age;
     Country country;

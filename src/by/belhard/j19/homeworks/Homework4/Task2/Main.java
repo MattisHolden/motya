@@ -4,14 +4,13 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Player player = new Player();
-        player.x = 2;
-        player.y = 3;
-        player.difX = 4;
-        player.difY = 5;
-        player.getPosition();
-        System.out.println(player.getPosition());
+      Player player = new Player();
 
+      player.printCurrentPos();
+      player.move(3 , 4);
+      player.printCurrentPos();
+      player.move(-3, -4);
+      player.printCurrentPos();
 
 
 

@@ -1,8 +1,8 @@
 package by.belhard.j19.lessons.Lesson4;
 
-public class Main {
+//public class Main {
 
-    public static void main(String[] args) {
+   /* public static void main(String[] args) {
 
         Country brazil = new Country();
         brazil.title = "Brazil";
@@ -29,4 +29,4 @@ public class Main {
         int newAge = alfredo.growOld();
         System.out.println(newAge);
     }
-}
+}*/
