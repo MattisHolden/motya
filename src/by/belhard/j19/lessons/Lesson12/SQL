@@ -1,0 +1,28 @@
+create database bhj19;
+
+use bhj19;
+drop table employees;
+
+create table employees (
+   id int  AUTO_INCREMENT,
+
+   primary key (id),
+
+   name varchar(64) not null unique,
+   age smallint check (age >= 18),
+   start_database date default '2020-01-01',
+   salary int not null check(salary > 0),
+   specialty_id int,
+   FOREIGN KEY (speciality_id) REFERENCES specialties (id)
+
+);
+create TABLE specialties (
+id int primary key AUTO_INCREMENT,
+specialty varchar(64) not null
+
+
+insert into  employees (name, age, speciality) values
+('Vasiliy', 25, 'Dev'),
+('Olga', 19, 'HR');
+
+ select * from employees
